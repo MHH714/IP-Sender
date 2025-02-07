@@ -1,5 +1,5 @@
 // Initialize EmailJS
-emailjs.init('YOUR_USER_ID'); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+emailjs.init('N3C9aFBzkfI_SRIpG'); // Replace 'YOUR_USER_ID' with your EmailJS user ID
 
 // Fetch the user's IP address
 fetch('https://api.ipify.org/?format=json')
@@ -25,7 +25,7 @@ function sendEmail() {
     };
 
     // Send the email using EmailJS
-    emailjs.send('service_angqvni', 'YOUR_TEMPLATE_ID', templateParams) // Replace these with your EmailJS service and template IDs
+    emailjs.send('service_angqvni', 'template_qjhs6nl', templateParams) // Replace these with your EmailJS service and template IDs
         .then(response => {
             alert('IP address sent to your email!');
         })
