@@ -25,7 +25,7 @@ function sendEmail() {
     };
 
     // Send the email using EmailJS
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams) // Replace these with your EmailJS service and template IDs
+    emailjs.send('service_angqvni', 'YOUR_TEMPLATE_ID', templateParams) // Replace these with your EmailJS service and template IDs
         .then(response => {
             alert('IP address sent to your email!');
         })
